@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Enter Komputer</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    </head>
+	<body>
+		<header>
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> +62 822 8865 5427</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> riswan@email.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> Kemiling, Lampung</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="#"><i class="fa">SALDO</i> Rp. 5.000.000</a></li>
+						<li><a href="login.html"><i class="fa fa-user-o"></i> Akun saya</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo">
+									<img src="./img/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<select class="input-select">
+										<option value="0">All Kategori</option>
+										<option value="1">Terpopuler</option>
+										<option value="1">Termurah</option>
+										<option value="1">Termahal</option>
+									</select>
+									<input class="input" placeholder="Search here">
+									<button class="search-btn">Cari</button>
+								</form>
+							</div>
+						</div>
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<div>
+									<a href="#">
+										<i class="fa fa-heart-o"></i>
+										<span>Wishlist</span>
+										<div class="qty">2</div>
+									</a>
+								</div>
+								
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Keranjang</span>
+										<div class="qty">2</div>
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/vga2.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">RTX 3090 ASUS</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>IDR 19.000.000</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/mobo2.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Z690 ASUS</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>IDR 3.600.000</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+										</div>
+										<div class="cart-summary">
+											<small>1 Barang di pilih</small>
+											<h5>SUBTOTAL: IDR 22.600.000</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="#">Kartu Debit</a>
+											<a href="checkout.html">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav id="navigation">
+			<div class="container">
+				<div id="responsive-nav">
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#">Diskon</a></li>
+						<li><a href="#">Kategori</a></li>
+						<li><a href="#">Laptop</a></li>
+						<li><a href="#">Vga</a></li>
+						<li><a href="#">Ram</a></li>
+						<li><a href="#">Prosesor</a></li>
+						<li><a href="#">Matherboard</a></li>
+						<li><a href="#">Headset</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="breadcrumb" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="breadcrumb-header">Checkout</h3>
+						<ul class="breadcrumb-tree">
+							<li><a href="index.html">Home</a></li>
+							<li class="active">Checkout</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="billing-details">
+							<div class="section-title">
+								<h3 class="title">Alamat Anda</h3>
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="first-name" placeholder="Nama depan">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="last-name" placeholder="Nama Belakang">
+							</div>
+							<div class="form-group">
+								<input class="input" type="email" name="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="address" placeholder="Alamat">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="city" placeholder="Kota">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="zip-code" placeholder="Kode pos">
+							</div>
+							<div class="form-group">
+								<input class="input" type="tel" name="tel" placeholder="No HP">
+							</div>
+							<div class="form-group">
+								<div class="input-checkbox">
+									<input type="checkbox" id="create-account">
+									<label for="create-account">
+										<span></span>
+										Saya setuju dengan S&K
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="order-notes">
+							<textarea class="input" placeholder="Catatan"></textarea>
+						</div>
+					</div>
+					<div class="col-md-5 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">Pesanan mu</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>BARANG</strong></div>
+								<div><strong>TOTAL</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1x RTX 3090 ASUS</div>
+									<div>IDR 19.000.000</div>
+								</div>
+								<div class="order-col">
+									<div>1x Z690 ASUS</div>
+									<div>IDR 3.600.000</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>KURIR</div>
+								<div><strong>GRATIS ONGKIR</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>TOTAL</strong></div>
+								<div><strong class="order-total">IDR 22.600.000</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Transfer Bank
+								</label>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-2">
+								<label for="payment-2">
+									<span></span>
+									Kartu Debit
+								</label>
+							</div>
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									E-Walle
+								</label>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								Saya telah membaca dan menerima <a href="#">Syarat & Ketentuan</a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">Bayar Sekarang</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Tentang kami</h3>
+								<p>Kami menyediakan berbagai perlengkapan komputer, laptop, dan aksesoris.</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>Kimiling, Bandar LMapung</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+62 8892 7365 1873</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>riswan@email.com</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Kategori</h3>
+								<ul class="footer-links">
+									<li><a href="#">Penjualan terlaris</a></li>
+									<li><a href="#">Laptop</a></li>
+									<li><a href="#">komputer</a></li>
+									<li><a href="#">Ram</a></li>
+									<li><a href="#">Aksesoris</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="clearfix visible-xs"></div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Informasi</h3>
+								<ul class="footer-links">
+									<li><a href="#">Tentang kami</a></li>
+									<li><a href="#">Kontak kami</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Pembelian</a></li>
+									<li><a href="#">Garansi</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Service</h3>
+								<ul class="footer-links">
+									<li><a href="login.html">Akun saya</a></li>
+									<li><a href="#">Metode pembayaran</a></li>
+									<li><a href="#">Wishlist</a></li>
+									<li><a href="#">Orderan saya</a></li>
+									<li><a href="#">Bantuan</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
